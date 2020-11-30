@@ -1,0 +1,281 @@
+body {
+    background-image: url("Assets/watercolorbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+h1 {
+text-align: center;
+padding: 20px 5px 5px 5px;
+background-color: #109abd;
+box-shadow: 0px 5px 10px grey;
+height: 90px;
+font-family: copperplate 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: wheat
+
+}
+
+nav {
+    color: wheat;
+}
+.Puppyimg {
+    margin-top: 40px;
+    margin-left: 200px;
+    border: 0px solid black;
+    width: 50%;
+    }
+p{
+    color: rgb(15, 126, 146);
+    font-size: 20px;
+}
+  article{
+    background-color: rgb(232, 245, 244);
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 4px;
+    border: 2px solid gray;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    color: rgb(68, 120, 123);
+}
+article div{
+    padding-bottom: 20px;}
+
+    article button {
+       align-items: center;
+    }
+
+article input{
+        width: 70%;}
+
+.VaccineTiles {
+    border: 5px;
+    border-radius: 5px;
+    background-color:rgb(227, 243, 246);
+    height: 500px;
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 10px 10px gray;
+    text-decoration-line: underline;
+    
+}
+.VaccineTiles ol {
+    float: right;
+    font-size: 20px;
+}
+
+
+
+section{
+    border: 0px solid grey;
+    float: left;
+
+}
+/*aside.after{
+    
+
+}*/
+aside H2 {
+   margin-left: 73%; 
+   color: rgb(15, 126, 146);
+}
+#puppy h2 {
+    float: left;
+}
+#Puppy{
+    color: rgb(15, 126, 146);
+    font-size: 30px;
+    margin-left: 60%;
+    padding: 20px;
+}
+#puppypic {
+   margin-top: 130px;
+   border-radius: 50px;
+}
+#puppylist {
+    margin-top:10%;
+}
+
+#Dog {
+    color: rgb(15, 126, 146);
+    margin-left: 60%;
+    padding: 20px;
+}
+#dogpic {
+    margin-top: 130px;
+    border-radius: 50px;
+}
+#doglist{
+    margin-top: 10%;
+}
+#Kitten{
+    color: rgb(15, 126, 146);
+    margin-left: 80%;
+    padding: 20px;
+    Margin-Top: -40.25%;
+}
+
+#kittenlist {
+    margin-left: 80%;
+    padding: 20px;
+    Margin-Top: -145.25%;
+
+}
+#kittenpic {
+   position: relative;
+   border-radius: 50px;
+   
+}
+
+#Cat {
+    color: rgb(15, 126, 146);
+    margin-left: 80%;
+    padding: 20px;
+}
+
+#catpic{
+    border-radius: 50px;
+}
+
+#catlist {
+    margin-left: 80%;
+    padding: 20px;
+    Margin-Top: -83.25%;
+}
+
+footer {
+    background-color: #109abd;
+    height: 25px;
+    font-size: 1.2em;
+    color:wheat;
+    text-align: center;
+    padding: 1.5em 2.0em;
+    position: fixed;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 00.75em;
+}
+
+footer a, footer a:visited {
+    color: wheat;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.calendar {
+    margin-left: 50px;
+    box-shadow: 0 5px 10px grey;
+    height: 75%;
+    width: 75%;
+}
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #109abd;
+  text-align: center;
+  
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.month ul li {
+  color: wheat;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+ 
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: rgb(227, 243, 246);
+  margin: 0;
+ 
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #109abd;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
